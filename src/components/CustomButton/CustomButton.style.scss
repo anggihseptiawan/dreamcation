@@ -1,0 +1,12 @@
+@import "../../App.scss";
+
+button {
+	border: unset;
+	padding: 5px 15px;
+	border-radius: 3px;
+
+	&.primary {
+		background-color: $primary;
+		color: white;
+	}
+}
