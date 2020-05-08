@@ -2,8 +2,10 @@
 
 button {
 	border: unset;
-	padding: 5px 15px;
+	padding: 8px 25px;
 	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0 8px 15px rgba(50, 82, 223, 0.3);
 
 	&.primary {
 		background-color: $primary;

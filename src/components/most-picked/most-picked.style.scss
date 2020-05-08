@@ -1,0 +1,37 @@
+section.most-picked {
+	.items {
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-gap: 10px;
+
+		.item {
+			position: relative;
+			min-height: 200px;
+			border-radius: 20px;
+			overflow: hidden;
+			width: 100%;
+
+			h4 {
+				position: absolute;
+				bottom: 20px;
+				left: 10px;
+			}
+			span {
+				position: absolute;
+				bottom: 8px;
+				left: 10px;
+			}
+
+			span.placeholder {
+				top: 5px;
+				right: 0;
+			}
+		}
+
+		.item:first-child {
+			grid-row: span 2;
+			height: 100%;
+		}
+	}
+}
